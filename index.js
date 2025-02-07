@@ -29,4 +29,5 @@ process.on("unhandledRejection", (err) => {
   process.exit(1);
 });
 
+// This will invoke the init function when the script is run
 init();
