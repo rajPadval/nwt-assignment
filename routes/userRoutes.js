@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     method: "GET",
-    path: "/",
+    path: "/api/hello",
     handler: (request, h) => {
       return "Hello World";
     },
